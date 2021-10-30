@@ -335,7 +335,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi_sdm660-libperfmgr
+    android.hardware.power-service.xiaomi-libperfmgr
 
 # Powerhint
 ifeq ($(EAS_POWERHINT_VARIANT), sdm636)

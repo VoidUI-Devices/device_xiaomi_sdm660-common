@@ -12,6 +12,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
+BOARD_VENDOR := xiaomi
 
 # Architecture
 TARGET_ARCH := arm64
@@ -75,6 +76,9 @@ USE_OPENGL_RENDERER := true
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
+
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # FM
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
